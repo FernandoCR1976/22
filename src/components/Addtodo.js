@@ -31,7 +31,7 @@ class Addtodo extends Component {
           name="title"
           onChange={this.onChange}
           value={this.state.title}
-          placeholder="Add Stuff You Need To Do Fool!"
+          placeholder="Add Task You Need To Do"
           style={{
             flex: "10",
             padding: "5px"
@@ -40,7 +40,7 @@ class Addtodo extends Component {
         <input
           type="Submit"
           name="Submit"
-          value="Submit"
+          value="ADD NEW TASK"
           className="btn"
           style={{
             flex: "1"
